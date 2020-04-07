@@ -58,6 +58,12 @@
           zoom: 4,
           center: myLatLng
         });
+
+        var marker = new google.maps.Marker({
+          position: myLatLng,
+          map: map,
+          title: 'Hello World!'
+        });
       }
     </script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAdCskTxc3YDhwR56pWIWzBLMxHX8wgHkM&callback=initMap"></script>
